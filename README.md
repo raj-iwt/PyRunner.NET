@@ -29,3 +29,46 @@ var result = await _pythonRunner.InvokeFunctionAsync(
     args: new object[] { 25 }
 );
 // Output: 5.0
+
+## 🔧 Use Cases
+
+Here are some powerful scenarios where **PyRunner.NET** can be useful:
+
+- **Run AI/ML Models**  
+  Seamlessly invoke Python-based machine learning models from your .NET applications without rewriting them in C#.
+
+- **Scripted Plugins**  
+  Enable scripting support in enterprise or desktop apps. Let users define logic using Python scripts that your .NET app can run dynamically.
+
+- **Data Science Workflows**  
+  Integrate data preprocessing, visualization, or analysis scripts written in Python as part of your data pipeline in .NET.
+
+- **Legacy Reuse**  
+  Call battle-tested Python libraries and tools (e.g., NumPy, Pandas, SciPy) from C# without porting them to .NET.
+
+- **Hybrid Architectures**  
+  Use Python for what it does best (data, ML, automation), and .NET for enterprise backend, UI, or API hosting.
+
+## 🤝 Contributing
+
+We welcome contributions of all kinds!
+
+To contribute:
+
+1. **Fork** the repository  
+2. **Create a branch** for your feature or fix  
+   ```bash
+   git checkout -b feature/your-feature-name
+
+
+---
+
+### ✅ `License` section
+```markdown
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this software for personal or commercial use.
+
+See the [LICENSE](LICENSE) file for full license text.
