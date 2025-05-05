@@ -29,6 +29,7 @@ var result = await _pythonRunner.InvokeFunctionAsync(
     args: new object[] { 25 }
 );
 // Output: 5.0
+```
 
 ## 🔧 Use Cases
 
