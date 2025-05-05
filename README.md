@@ -23,12 +23,13 @@ PyRunner.NET is a developer-friendly .NET SDK that lets you run Python scripts a
 ## 🔧 Usage Example
 
 ```csharp
-var result = await _pythonRunner.InvokeFunctionAsync(
-    scriptPath: "scripts/math_utils.py",
-    functionName: "square_root",
-    args: new object[] { 25 }
-);
-// Output: 5.0
+using PyRunner.NET;
+
+var runner = new PythonRunner();
+var result = await runner.RunScriptAsync("scripts/hello.py", ["Bob", "42"]);
+Console.WriteLine(result);
+
+// Output: Hello Bob, you are 42 years old.
 ```
 
 ## 🔧 Use Cases

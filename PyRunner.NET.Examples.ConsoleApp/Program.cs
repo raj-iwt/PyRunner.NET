@@ -2,5 +2,5 @@
 using PyRunner.NET;
 
 var runner = new PythonRunner();
-var result = await runner.RunScriptAsync("scripts/hello.py", ["Raj", "42"]);
+var result = await runner.RunScriptAsync("scripts/hello.py", ["Bob", "42"]);
 Console.WriteLine(result);
